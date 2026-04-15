@@ -3,10 +3,10 @@ import { Button } from "../components/Button";
 import { useEffect, useState } from "react";
 
 const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#projects", label: "Projects" },
-    { herf: "#experience", label: "Experience" },
-    { href: "#testimonials", label: "Testimonials" }
+  { href: "#about", label: "About" },
+  { href: "#projects", label: "Projects" },
+  { href: "#experience", label: "Experience" },
+  { href: "#testimonials", label: "Testimonials" },
 ];
 
 export const Navbar = () => {

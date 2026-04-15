@@ -5,6 +5,7 @@ import { Testimonials } from "./sections/Testimonials"
 import { Contact } from "./sections/Contact"
 import { Navbar } from "./layout/Navbar"
 import { Experience } from "./sections/Experience"
+import { Footer } from "./layout/Footer"
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
         <Experience/>
         <Testimonials />
         <Contact />
+        <main>
+          <Footer/>
+        </main>
       </main>
     </div>
   )
