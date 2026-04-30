@@ -8,7 +8,23 @@ const testimonials = [
     author: "Stephanie Ademuyiwa",
     role: "Backend Developer, Movam Technologies Limited",
     avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "/avatars/steph.jpg",
+  },
+  {
+    quote:
+      "I had the pleasure of managing Israel during their internship role at Netop. They quickly picked up our stack, contributed to building clean, responsive interfaces, and consistently showed a strong willingness to learn. Israel is detail oriented, takes feedback well, and collaborates effectively with the team. They brought a great attitude and delivered quality work throughout their time with us. I’d gladly recommend them for any data scientist or frontend opportunity.",
+    author: "Zack Aminu",
+    role: "Senior Backend Engineer, Sterling Bank Plc",
+    avatar:
+      "/avatars/zack_aminu.jpg",
+  },
+  {
+    quote:
+      "Israel is one of those rare colleagues who make every team better. During our time together, he consistently demonstrated strong problem-solving skills, excellent communication, and a genuine commitment to getting things done the right way. He’s reliable, collaborative, and always willing to support others.",
+    author: "Victor Otene",
+    role: "System Designer, Lotus Bank Plc",
+    avatar:
+      "/avatars/otene.jpg",
   },
 ];
 
