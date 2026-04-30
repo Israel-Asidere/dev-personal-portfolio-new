@@ -3,29 +3,29 @@ import { ArrowRight, ArrowUpRight } from "lucide-react"
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton"
 
 const projects = [{
-    title: "PREDICTING HIGHER EDUCATION STUDENT DROPOUT AND ACADEMIC PERFORMANCE USING ML TECHNIQUES",
+    title: "Predicting Higher Education Student Dropout and Academic Performance Using ML Techniques",
     description: "Developed machine learning models to predict student dropout and academic success in UK higher education. Using the CRISP-DM framework, I built logistic regression, random forest, and ensemble models, achieving an AUC-ROC of 0.95 and F1 score of 0.91. The project highlights how data can be used to identify at-risk students and support early intervention.",
     image: "/projects/project1.jpg",
-    tags: ["R", "Machine Learning",],
+    tags: ["Python", "Machine Learning", "Crisp DM"],
     link: "#",
     github: "#",
 
 },
 {
-    title: "Predicting Higher Education Student Dropout and Academic Performance Using ML Techniques",
-    description: "Developed machine learning models to predict student dropout and academic success in UK higher education. Using the CRISP-DM framework, I built logistic regression, random forest, and ensemble models, achieving an AUC-ROC of 0.95 and F1 score of 0.91. The project highlights how data can be used to identify at-risk students and support early intervention.",
-    image: "/projects/project1.jpg",
-    tags: ["R", "Machine Learning",],
-    link: "#",
-    github: "#",
+    title: "Shopsphere EDA",
+    description: "Performed an end-to-end exploratory data analysis on 385,314 e-commerce transactions for Shopshere Inc, an online retail platform struggling with low conversion rates across multiple customer segments. Using RFM analysis and K-Means clustering, I identified four distinct customer groups and built a cohort retention heatmap revealing that only 25 to 30% of customers return after their first month. The project delivers segment-level recommendations to help Shopshere reduce churn, improve conversion, and grow customer lifetime value.",
+    image: "/projects/shopsphere.jpg",
+    tags: ["Python", "Exploratory Data Analysis",],
+    link: "https://github.com/Israel-Asidere/Amdari-Shopsphere",
+    github: "https://github.com/Israel-Asidere/Amdari-Shopsphere",
 
 }, {
-    title: "PREDICTING HIGHER EDUCATION STUDENT DROPOUT AND ACADEMIC PERFORMANCE USING ML TECHNIQUES",
-    description: "Developed machine learning models to predict student dropout and academic success in UK higher education. Using the CRISP-DM framework, I built logistic regression, random forest, and ensemble models, achieving an AUC-ROC of 0.95 and F1 score of 0.91. The project highlights how data can be used to identify at-risk students and support early intervention.",
-    image: "/projects/project1.jpg",
-    tags: ["R", "Machine Learning",],
-    link: "#",
-    github: "#",
+    title: "MIG Cement - Demand Forecasting",
+    description: "Built a demand forecasting system for Midlands Infrastructure Group (MIG), a UK construction company facing costly stockouts and overstocking across multiple sites. I engineered lag, rolling, weather interaction, and inventory features before training and comparing a SARIMAX time series model and a Random Forest regression model, evaluated using MAPE and RMSE. The project provides site-level forecast visibility to support proactive supply chain decisions, reduce waste, and improve operational efficiency across MIG's UK network.",
+    image: "/projects/cementimg.jpg",
+    tags: ["Python", "Machine Learning", "Sarimax"],
+    link: "https://github.com/Israel-Asidere/Amdari-MIGCement",
+    github: "https://github.com/Israel-Asidere/Amdari-MIGCement",
 
 },
 
